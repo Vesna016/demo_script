@@ -41,7 +41,19 @@ header {
     width: 370px;
     height: 300px;
     border-radius: 3px;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .85);
+    box-shadow: 400px 0 300px -300px rgba(255, 206, 0, .5) inset;
+}
+
+.gradient_f {
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0 -400px 300px -300px steelblue inset;
+    left: 500px;
+    top: 150px;
+    width: 500px;
+    height: 400px;
+    z-index: 3;
 }
 
 #f1 {
@@ -75,8 +87,7 @@ header {
     height: 90px;
 }
 
-.inp{
-
+.inp {
 }
 
 aside {
