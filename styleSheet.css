@@ -40,55 +40,24 @@ header {
     top: 112px;
     width: 370px;
     height: 300px;
-    border-radius: 3px;
-    border-color: #333;
-    border-style: solid;
-    border-width:1px;
-    background-color: rgba(255, 255, 255, .85);
+    background-color: rgba(255, 255, 255, .8);
     box-shadow: 400px 0 300px -300px rgba(255, 206, 0, .5) inset;
-
-    border-right-color: rgba(255, 255, 255, .8);
-    border-bottom-color: rgba(255, 255, 255, .8);
-    border-left-color: rgba(33, 0, 119, .8);
-    border-top-color: rgba(33, 0, 119, .8);
+    border-radius: 3px;
+    border-left: 2px  solid #ffce0080;
 }
 
+
 #f:hover {
-        animation: borderF 1.3s linear 1 alternate .1s;
+        animation: borderF 1s ease-out 2 alternate .1s;
     }
 
 @keyframes borderF {
-    from {
-        border-right-color: rgba(255, 255, 255, .0);
-        border-bottom-color: rgba(255, 255, 255, .0);
-        border-left-color: rgba(33, 0, 119, .0);
-        border-top-color: rgba(33, 0, 119, .0);
-    }
-    25%{
-        border-right-color: rgba(255, 255, 255, .5);
-        border-bottom-color: rgba(255, 255, 255, .8);
-        border-left-color: rgba(255, 255, 255, .8);
-        border-top-color: rgba(255, 255, 255, .8);
-    }
-    50% {
-        border-right-color: rgba(255, 255, 255, .8);
-        border-bottom-color: rgba(255, 255, 255, .8);
-        border-left-color: rgba(255, 255, 255, .8);
-        border-top-color: rgba(255, 255, 255, .8);
-    }
-    75% {
-        border-right-color: rgba(255, 255, 255, .8);
-        border-bottom-color: rgba(255, 255, 255, .8);
-        border-left-color: rgba(255, 255, 255, .8);
-        border-top-color: rgba(255, 255, 255, .8);
-    }
     to {
-        border-right-color: rgba(255, 255, 255, .8);
-        border-bottom-color: rgba(255, 255, 255, .8);
-        border-left-color: rgba(255, 255, 255, .8);
-        border-top-color: rgba(255, 255, 255, .8);
+        border-left-color: #50a827;
+        background-color: rgba(255, 255, 255, 1);
     }
 }
+   
 
 #f1 {
     position: absolute;
