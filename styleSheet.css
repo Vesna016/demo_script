@@ -1,7 +1,6 @@
 body {
-    background-color: rgb(180, 180, 180);
+    background-color: #dddbdb; /*rgb(180, 180, 180)*/
     margin: 0px 0px 0px 0px;
-
     font-size: 13px;
     font-family: Helvetica,Verdana,Tahoma,Arial,sans-serif;
     color: #333333;
@@ -46,9 +45,8 @@ header {
     border-left: 2px  solid #ffce0080;
 }
 
-
 #f:hover {
-        animation: borderF 1s ease-out 2 alternate .1s;
+        animation: borderF .8s ease-out 2 alternate .1s;
     }
 
 @keyframes borderF {
@@ -58,7 +56,6 @@ header {
     }
 }
    
-
 #f1 {
     position: absolute;
     left: -22px;
@@ -80,8 +77,15 @@ header {
     top: 45px;
     width: 225px;
     height: 125px;
+    color:#333;
 }
-
+textarea:focus {
+    outline: none !important;
+    border-left-color: #50a827;
+    border-top-color: #50a827;
+    border-bottom-color: #dddbdb;
+    border-right-color: #dddbdb;
+}
 #f3 {
     position: absolute;
     left: 15px;
